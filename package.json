@@ -1,0 +1,23 @@
+{
+  "name": "scotch",
+  "version": "1.0.0",
+  "description": "![](scotch.png)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v1bes/scotch.git"
+  },
+  "author": "Marcel Pahnke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v1bes/scotch/issues"
+  },
+  "homepage": "https://github.com/v1bes/scotch#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
