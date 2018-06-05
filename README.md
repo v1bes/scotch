@@ -39,3 +39,8 @@ It also includes normalize.css and font-awesome (or some icon font).
 * Islay ( branch or different version of scotch with less/different features)
 * Spayside (same as islay but different)
 * easy and useful integration in angular, vue, React, … ember?
+
+
+
+---
+Made with a lot of  🥃 by [v1b.es](v1b.es)
