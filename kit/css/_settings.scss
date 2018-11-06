@@ -1,0 +1,46 @@
+/*
+
+   .|'''.|                    .           '||
+   ||..  '    ....    ...   .||.    ....   || ..
+    ''|||.  .|   '' .|  '|.  ||   .|   ''  ||' ||
+  .     '|| ||      ||   ||  ||   ||       ||  ||
+  |'....|'   '|...'  '|..|'  '|.'  '|...' .||. ||.
+                                ___ by v1b.es ___
+*/
+
+//// COLORS ////
+$main-color: #dabdab;
+$main-complementary: complement($main-color);
+
+// generadet color scheme //
+  // just like adobe color CC
+  // pleas just set one to true!
+$monochrom: false;
+$analogus: false;
+$complementary: true;
+$triad: false;
+  // new colors are safed in scheme-color-1 - 5
+
+
+//// FONTS ////
+$main-font: sans-serif;
+
+
+//// TYPO ////
+
+//h1
+$headlines: (
+  h1: (
+    size: 30px,
+    color: black,
+    text-decoration: underline,
+    line-height: 1.5,
+    font-weight: bold,
+  ),
+  h2: (
+    size: 26px,
+  )
+);
+
+
+////

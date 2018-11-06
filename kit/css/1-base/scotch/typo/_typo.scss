@@ -1,0 +1,22 @@
+@import "font";
+
+
+@each $headline, $values in $headlines{
+  $color: map-get($values, 'color');
+  $font-size: map-get($values, 'size');
+  $line-height: map-get($values, 'line-height');
+  $text-decoration: map-get($values, 'text-decoration');
+  $letter-spacing: map-get($values, 'letter-spacing');
+  $font-weight: map-get($values, 'font-weight');
+  $text-align: map-get($values, 'text-align');
+
+  #{$headline} {
+    color: $color;
+    font-size: $font-size;
+    line-height: $line-height;
+    text-decoration: $text-decoration;
+    letter-spacing: $letter-spacing;
+    font-weight: $font-weight;
+    text-align: $text-align;
+  }
+}

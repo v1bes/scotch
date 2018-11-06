@@ -1,0 +1,40 @@
+
+$scheme-color-1: $main-color;
+$scheme-color-2: $main-color;
+$scheme-color-3: $main-color;
+$scheme-color-4: $main-color;
+$scheme-color-5: $main-color;
+
+@if $monochrom == true{
+    $scheme-color-2: lighten($main-color, 10%);
+    $scheme-color-3: darken($main-color, 10%);
+    $scheme-color-4: darken($main-color, 20%);
+    $scheme-color-5: darken($main-color, 30%);
+}
+@if $analogus == true{
+    $scheme-color-2: adjust-hue($main-color, 10deg);
+    $scheme-color-3: adjust-hue($main-color, 20deg);
+    $scheme-color-4: adjust-hue($main-color, -10deg);
+    $scheme-color-5: adjust-hue($main-color, -20deg);
+}
+@if $complementary == true{
+    $scheme-color-2: adjust-hue($main-color, 180deg);
+    $scheme-color-3: darken(adjust-hue($main-color, 180deg), 15%);
+    $scheme-color-4: lighten($main-color, 10%);
+    $scheme-color-5: darken($main-color, 20%);
+}
+@if $triad == true{
+    $scheme-color-2: adjust-hue($main-color, 120deg);
+    $scheme-color-3: darken(adjust-hue($main-color, -120deg), 15%);
+    $scheme-color-4: adjust-hue($main-color, -120deg);
+    $scheme-color-5: darken($main-color, 20%);
+}
+
+
+p{
+  color: $scheme-color-1;
+  color: $scheme-color-2;
+  color: $scheme-color-3;
+  color: $scheme-color-4;
+  color: $scheme-color-5;
+}
